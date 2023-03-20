@@ -1,0 +1,34 @@
+.row_page {
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+}
+
+nav {
+    display: block;
+}
+
+.pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.page-link {
+    position: relative;
+    display: block;
+    padding: 8px 12px;
+    margin-left: 4px;
+    font-size: 1.4rem;
+    color: #007bff;
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%);
+    border: 1px solid #bbc5cf6e;
+    border-radius: 2px;
+}
+.page-link.text-muted {
+    color: #353b40;
+}

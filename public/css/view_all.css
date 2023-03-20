@@ -1,0 +1,269 @@
+.grid-cart_phone {
+    margin-top: 24px;
+    background-color: #ffff;
+    border-radius: 3px;
+}
+
+
+
+.cart_phone-img {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    height: 100%;
+}
+
+.cart_phone-img img {
+    width: 84%;
+    object-fit: cover;
+    background-color: initial;
+}
+
+.cart_phone-about {
+    color: var(--black-color);
+    padding: 18px 24px;
+}
+
+.cart_phone-about h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    padding: 8px 0;
+    margin-top: 6px;
+}
+
+.cart_phone-about h4 {
+    padding: 8px 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.cart_phone-about h4 > span {
+    padding: 8px 0;
+    font-size: 2rem;
+    font-weight: 500;
+    color: red;
+}
+
+.cart_phone-about > span {
+    display: block;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-top: 1px dotted #333;
+    border-bottom: 1px dotted #333;
+    font-size: 1.33rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+
+.cart_phone-btn {
+    margin-top: 8px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.6rem;
+    color: #ffff;
+    background-color: #eb1f27;
+    border-radius: 4px;
+}
+
+.cart_phone-descriptions {
+    margin-top: 8px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.cart_phone-about h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.content_cart {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    margin-top: 24px;
+    background-color: #ffff;
+    border-radius: 3px;
+}
+
+.cart_none {
+    text-align: center;
+
+}
+
+.cart_none img {
+    display: block;
+    zoom: 0.5;
+    padding: 24px;
+}
+
+.cart_none h3 {
+    display: block;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    padding: 16px;
+}
+
+.table_cart-info {
+    margin-top: 24px;
+    background-color: #ffff;
+    border-radius: 4px;
+}
+
+.row-table_cart {
+    border-bottom: 1px solid #838c946e;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-after {
+    border-bottom: 0px solid #838c946e;
+}
+
+
+.table_np {
+    display: none;
+    font-size: 1.4rem;
+    flex: 1;
+    color: var(--black-color);
+}
+
+
+
+.col-table-price {
+    flex-wrap: wrap;
+}
+
+.col-table-p img {
+    zoom: 0.35;
+}
+
+.col-table-p p {
+    color: var(--black-color);
+    margin-left: 8px;
+}
+
+.col-table-p span,
+.col-table span
+{
+    display: block;
+    color: #eb1f27;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.cart_type {    
+    padding: 4px 8px;
+    background-color: var(--wrap-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+}
+
+.cart-quantity {
+    margin: 0 2px;
+}
+
+.col-table a {
+    display: block;
+    font-size: 1.5rem;
+    width: 30%;
+    height: 36px;
+    margin-left: auto;
+    text-align: center;
+    line-height: 36px;
+    color: #ffff;
+    background-color: #eb1f27;
+    border-radius: 2px;
+}
+
+.col-form-order {
+    padding: 12px;
+}
+
+.order_img {
+    width: 80px;
+    height: 80px;
+    padding: 12px;
+}
+
+.order_success > h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #07ac0a;
+    padding: 5px 10px;
+}
+
+.order_success > a {
+    width: 100%;
+    border-radius: 4px;
+    background-color: initial;
+    color: #eb1f27;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.row-order {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.label-address {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+    padding: 8px;
+}
+
+.form_order {
+    width: 100%;
+    outline: none;
+    height: 28px;
+    padding: 8px;
+    border: 1px solid #9ba5af6e;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+
+}
+
+.order-btn {
+    margin: 8px;
+    background-color: #eb1f27;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ffff;
+    float: right;
+    padding: 6px 8px;
+    border-radius: 3px;
+    border: none;
+}
+
+.order_info {
+    font-size: 1.6rem;
+    font-weight:500;
+    color: #07ac0a;
+    width: 100%;
+    text-align: center;
+}
+.order_cancel {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0 auto;
+    background-color: #eb1f27;
+    color: #ffff;
+    padding: 4px 6px;
+    border-radius: 4px;
+}

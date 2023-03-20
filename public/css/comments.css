@@ -1,0 +1,89 @@
+
+.col-one {
+    width: 100%;
+    margin: 0 18px;
+}
+
+textarea {
+    margin: 6px 0;
+    width: 100%;
+    display: block;
+    height: 68px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    border: solid 1px #ced4da;
+    background-color: #fff;
+    padding: 10px 120px 10px 10px;
+    outline: 0;
+}
+
+.form_comment {
+    position: relative;
+}
+
+.form_comment span {
+    color: #eb1f27;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.form_comment button,
+.form_comment a {
+    position: absolute;
+    padding: 10px 12px;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: none;
+    border: none;
+    background-color: #eb1f27;
+    color: #ffff;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.title_comment {
+    font-size: 1.7rem;
+    line-height: 28px;
+    font-weight: 500;
+    padding: 10px 6px;
+}
+
+.color-comment {
+    margin-top: 24px;
+    background-color: #ffff;
+    padding-bottom: 18px;
+}
+
+.wrap_comment {
+    margin-top: 18px;
+}
+
+.comment_info {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+
+}
+
+.comment_info h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0 8px;
+}
+
+.comment_info span {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #444b52;
+    display: block;
+
+}
+
+.wrap_comment p {
+    font-size: 1.5rem;
+    color: #444b52;
+    font-weight: 400;
+    margin: 8px 8px 0;
+}
